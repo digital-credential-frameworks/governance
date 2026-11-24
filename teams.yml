@@ -1,4 +1,71 @@
 teams:
+  - name: acapy-maintainers
+    maintainers:
+      - ryjones
+    members:
+      - andrewwhitehead
+      - esune
+      - ff137
+      - Gavinok
+      - jamshale
+      - loneil
+      - PatStLouis
+      - swcurran
+      - thiagoromanos
+      - TimoGlastra
+      - WadeBarnes
+  - name: askar-maintainers
+    maintainers:
+      - ryjones
+    members:
+      - andrewwhitehead
+      - berendsliedrecht
+      - cvarjao
+      - genaris
+      - swcurran
+      - TimoGlastra
+      - WadeBarnes
+  - name: bifold-maintainers
+    maintainers:
+      - ryjones
+    members:
+      - al-rosenthal
+      - bryce-mcmath
+      - cvarjao
+      - fc-santos
+      - jcdrouin21
+      - jleach
+      - KjartanE
+      - LippaC-OPS
+      - MacDeluca
+      - MosCD3
+      - thiagoromanos
+  - name: credo-ts-maintainers
+    maintainers:
+      - ryjones
+    members:
+      - auer-martin
+      - berendsliedrecht
+      - genaris
+      - GHkrishna
+      - hacdias
+      - jakubkoci
+      - jleach
+      - rmlearney-digicatapult
+      - sairanjit
+      - TimoGlastra
+  - name: dcf-testing-maintainers
+    maintainers:
+      - ryjones
+    members:
+      - al-rosenthal
+      - genaris
+      - jamshale
+      - Jsyro
+      - KimEbert42
+      - PatStLouis
+      - swcurran
+      - WadeBarnes
   - name: lfdt-staff
     maintainers:
       - jwagantall
@@ -6,7 +73,11 @@ teams:
       - ryjones
     members:
       - thelinuxfoundation
-
+  - name: vcx-maintainers
+    maintainers:
+      - ryjones
+    members:
+      - gmulhearn
 repositories:
   - name: .github
     teams:
