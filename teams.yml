@@ -1,7 +1,7 @@
 teams:
   - name: acapy-maintainers
     maintainers:
-      - ryjones
+      - swcurran
     members:
       - andrewwhitehead
       - esune
@@ -10,27 +10,24 @@ teams:
       - jamshale
       - loneil
       - PatStLouis
-      - swcurran
       - thiagoromanos
       - TimoGlastra
       - WadeBarnes
   - name: askar-maintainers
     maintainers:
-      - ryjones
+      - swcurran
     members:
       - andrewwhitehead
       - berendsliedrecht
       - cvarjao
       - genaris
-      - swcurran
       - TimoGlastra
       - WadeBarnes
   - name: bifold-maintainers
     maintainers:
-      - ryjones
+      - bryce-mcmath
     members:
       - al-rosenthal
-      - bryce-mcmath
       - cvarjao
       - fc-santos
       - jcdrouin21
@@ -42,11 +39,10 @@ teams:
       - thiagoromanos
   - name: credo-ts-maintainers
     maintainers:
-      - ryjones
+      - genaris
     members:
       - auer-martin
       - berendsliedrecht
-      - genaris
       - GHkrishna
       - hacdias
       - jakubkoci
@@ -56,7 +52,7 @@ teams:
       - TimoGlastra
   - name: dcf-testing-maintainers
     maintainers:
-      - ryjones
+      - swcurran
     members:
       - al-rosenthal
       - genaris
@@ -64,7 +60,6 @@ teams:
       - Jsyro
       - KimEbert42
       - PatStLouis
-      - swcurran
       - WadeBarnes
   - name: lfdt-staff
     maintainers:
@@ -82,6 +77,10 @@ repositories:
   - name: .github
     teams:
       lfdt-staff: maintain
+    visibility: public
+  - name: bifold-wallet
+    teams:
+      bifold-maintainers: maintain
     visibility: public
   - name: governance
     teams:
