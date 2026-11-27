@@ -23,19 +23,25 @@ teams:
       - genaris
       - TimoGlastra
       - WadeBarnes
+  - name: bifold-admins
+    maintainers:
+      - jleach
+      - cvarjao
+      - bryce-mcmath
   - name: bifold-maintainers
     maintainers:
+      - jleach
       - bryce-mcmath
-    members:
       - al-rosenthal
+    members:
+      - amanji
       - cvarjao
       - fc-santos
       - jcdrouin21
-      - jleach
       - KjartanE
-      - LippaC-OPS
       - MacDeluca
       - MosCD3
+      - LippaC-OPS
       - thiagoromanos
   - name: credo-ts-maintainers
     maintainers:
